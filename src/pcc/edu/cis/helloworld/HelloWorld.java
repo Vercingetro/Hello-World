@@ -1,4 +1,6 @@
 package pcc.edu.cis.helloworld;
+import java.util.Date;
+
 /**
  * Prints "Hello World" to the console
  *
@@ -13,5 +15,6 @@ public class HelloWorld
         System.out.println("Hello Git");
         System.out.println("Good night World");
         System.out.println("Good night Git");
+        System.out.println(new Date());
     }
 }
